@@ -49,6 +49,7 @@ header span{
     position: relative;
     width: 100%;
     min-height: 372px;
+    margin-bottom: 100px;
     overflow: scroll;
 }
 #leftPanel{
@@ -93,7 +94,7 @@ header span{
     height: auto;
 }
 footer{
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 80px;
