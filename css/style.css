@@ -13,10 +13,13 @@ header h1{
     font-family: Verdana;
     font-size: 2em;
     letter-spacing: 1px;
+    margin: 5px 0 0 0;
 }
 nav{
-    width: 320px;
+    width: 385px;
     margin:0 auto;
+    border-top: 2px solid black;
+    margin-top: 5px;
 }
 nav a{
     text-decoration: none;
@@ -37,11 +40,15 @@ header img{
     margin: 0 auto;
     padding-top: 20px;
 }
+header span{
+    display: block;
+    text-align: center;
+}
 
 #content{
     position: relative;
     width: 100%;
-    min-height: 338px;
+    min-height: 372px;
     overflow: scroll;
 }
 #leftPanel{
@@ -114,13 +121,15 @@ footer span{
 footer nav{
     display: block;
     margin: 0 auto;
-    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid white;
 }
 #socialWrapper{
     position: absolute;
     top: 0;
-    right: 70px;
-    width: 180px;
+    right: 3%;
+    width: 20%;
+    max-width: 200px;
 }
 #socialWrapper h3{
     display: block;
@@ -128,9 +137,9 @@ footer nav{
     margin: 4px;
 }
 #socialWrapper img{
-    width: 40px;
+    width: 27%;
     height: auto;
-    margin-right: 15px;
+    margin-right: 3%;
 }
     
 #bioPicWrapper{
@@ -160,9 +169,10 @@ footer nav{
 #contactPicWrapper{
     float: left;
     width: 50%;
-    height: 338px;
-    border-top-right-radius: 15px;
+    height: 350px;
     overflow: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 #contactPic{
     width: 100%;
@@ -189,7 +199,7 @@ footer nav{
     border-top: 1px solid black;
 }
 .galPic{
-    width: 280px;
+    width: 22%;
     height: auto;
-    margin: 15px;
+    margin: 1%;
 }
